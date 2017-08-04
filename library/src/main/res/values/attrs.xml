@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircularCircleView">
+        <attr name="duration" format="integer"/>
+        <attr name="radius" format="dimension"/>
+        <attr name="strokeWidth" format="dimension"/>
+        <attr name="colors" format="reference|color"/>
+    </declare-styleable>
+</resources>

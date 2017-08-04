@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <array name="my_circular_colors">
+        <item>@android:color/holo_orange_light</item>
+        <item>@android:color/holo_green_light</item>
+        <item>#FF4081</item>
+    </array>
+</resources>

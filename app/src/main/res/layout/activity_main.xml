@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.circularcircleview.MainActivity">
+
+    <com.timshinlee.circularcircleview.CircularCircleView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:colors="@array/my_circular_colors"
+        app:duration="2000"
+        app:radius="60dp"
+        app:strokeWidth="5dp"/>
+</FrameLayout>
+
